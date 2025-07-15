@@ -34,3 +34,13 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+## อัพโค้ดขึ้น github
+- git init
+- git add [ชื่อไฟล์ที่ต้องการจะอัพโหลด ถ้าอัพหมดใช้ . ]
+- git commit -m "ข้อความที่ต้องการจะบอกว่าสิ่งที่อัพเดตไปมีอะไรบ้าง"
+- git branch -M main/master //บอกความต้องการว่าจะให้อัพโค้ดไปที่ไหนในงานจำเป็นที่จะต้องอัพไว้ master ก่อนเพื่อไม่ให้อัพโค้ดขึ้น main  แล้ว  error  ถ้าเป็นงานเล็กๆอัพผ่าน main ได้เลย
+- git push origin main //อัพโค้ดไปที่ main
+
+- git pull //  ดึงค่าที่อัพเดตมาถ้าหากมีการอัพเดตะจแจ้งสีไฟล์

@@ -9,6 +9,7 @@ import Image from "next/image";
 import avatarImg from "../public/assets/avatar.png";
 // import avatarImg from "@/public/assets/avatar.png";
 import Socials from "../components/Socials";
+import Link from "next/link";
 
 const Home = () => {
   return (
@@ -38,10 +39,10 @@ const Home = () => {
             🇹🇭 Based in Thailand | CS Student & Aspiring Full-Stack Developer | Passionate about web & UX design | Driven by curiosity, focused on results
           </p>
           <button className="btn btn-lg btn-accent mb-16">
-            <div className="flex items-center gap-3">
+            <Link href={"/contact"}  className="flex items-center gap-3">
                 <span>Let's talk.</span>
                 <MdArrowOutward className="text-xl"/>
-            </div>
+            </Link>
           </button>
           {/* contact info */}
           <div className="flex flex-col xl:flex-row xl:items-center gap-4 xl:gap-8 xl:mb-0">
