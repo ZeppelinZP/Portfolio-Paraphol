@@ -165,12 +165,15 @@ const Work = () => {
                                       <span>Live Project</span>
                                     </button>
                                   </Link>
+                                  {project.github && (
                                   <Link href={project.github}>
                                     <button className="btn btn-sm btn-white flex gap-2">
                                       <MdArrowOutward className="text-xl" />
                                       <span>Github Repo</span>
                                     </button>
                                   </Link>
+                                  )}
+
                                 </div>
                               </div>
                               {/* project img */}

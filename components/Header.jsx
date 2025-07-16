@@ -2,7 +2,7 @@
 import Logo from "./Logo";
 import Socials from "./Socials";
 import { CiMenuFries } from "react-icons/ci";
-import { MdFileDownload } from "react-icons/md";
+import { BsFolder2Open } from "react-icons/bs";
 
 import {
   Sheet,
@@ -44,8 +44,8 @@ const Header = () => {
               <div>
                 <button className="btn btn-lg btn-tertiary mb-16">
                   <div className="flex items-center gap-3">
-                    <span>Download GPM</span>
-                    <MdFileDownload className="text-xl" />
+                    <span>View Projects</span>
+                    <BsFolder2Open className="text-xl" />
                   </div>
                 </button>
                 <Socials

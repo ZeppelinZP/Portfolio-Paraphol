@@ -43,4 +43,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 - git branch -M main/master //บอกความต้องการว่าจะให้อัพโค้ดไปที่ไหนในงานจำเป็นที่จะต้องอัพไว้ master ก่อนเพื่อไม่ให้อัพโค้ดขึ้น main  แล้ว  error  ถ้าเป็นงานเล็กๆอัพผ่าน main ได้เลย
 - git push origin main //อัพโค้ดไปที่ main
 
+- git push // ใช้อัพไฟล์ขึ้น github ได้เหมือนกัน
 - git pull //  ดึงค่าที่อัพเดตมาถ้าหากมีการอัพเดตะจแจ้งสีไฟล์

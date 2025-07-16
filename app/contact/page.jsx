@@ -36,8 +36,8 @@ const Contact = () => {
                   Get In <span className="text-accent">Touch</span>
                 </h2>
                 <p className="max-w-[460px]">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Velit, vel!
+                  Feel free to reach out if you have a project, idea, or just want to connect. 
+                  I'm always open to new opportunities.
                 </p>
               </div>
               {/* info */}
